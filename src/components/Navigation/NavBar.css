@@ -30,3 +30,8 @@
 .navbar.collapse {
   color: red !important;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}

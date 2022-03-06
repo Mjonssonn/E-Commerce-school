@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './NavBar.css';
 import Home from '../Pages/Home/Home';
@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <Router>
       <div>
-        <Navbar expand='lg'>
+        <Navbar bg='light' expand='lg' variant='light'>
           <Container>
             <Navbar.Brand className='logo' as={Link} to={'/home'}>
               KIM NOVAQ
