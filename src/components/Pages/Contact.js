@@ -5,8 +5,8 @@ import LoremIpsum from 'react-lorem-ipsum';
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
       <Container>
+        <h1>Contact</h1>
         <LoremIpsum p={1} />
       </Container>
       <Container>

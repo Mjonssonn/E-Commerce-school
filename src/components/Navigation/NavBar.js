@@ -1,18 +1,19 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import Products from './Products';
+import './NavBar.css';
+import Home from '../Pages/Home';
+import About from '../Pages/About';
+import Contact from '../Pages/Contact';
+import Products from '../Pages/Products';
 
 const NavBar = () => {
   return (
     <Router>
       <div>
-        <Navbar bg='light' expand='lg' variant='light'>
+        <Navbar expand='lg'>
           <Container>
-            <Navbar.Brand classname='logo' as={Link} to={'/home'}>
+            <Navbar.Brand className='logo' as={Link} to={'/home'}>
               KIM NOVAQ
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />

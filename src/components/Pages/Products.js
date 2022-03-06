@@ -1,10 +1,13 @@
 import react from 'react';
+import { Container } from 'react-bootstrap';
 
 class Products extends react.Component {
   render() {
     return (
       <div>
-        <h1>Products</h1>
+        <Container>
+          <h1>Products</h1>
+        </Container>
       </div>
     );
   }
