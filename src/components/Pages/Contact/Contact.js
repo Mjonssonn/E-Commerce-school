@@ -1,15 +1,16 @@
 import React from 'react';
 import { Form, Button, Container } from 'react-bootstrap';
 import LoremIpsum from 'react-lorem-ipsum';
+import './Contact.css';
 
 const Contact = () => {
   return (
     <div>
-      <Container>
+      <Container className='contact-description'>
         <h1>Contact</h1>
         <LoremIpsum p={1} />
       </Container>
-      <Container>
+      <Container className='contact-form'>
         <Form>
           <Form.Group className='mb-3' controlId='formBasicEmail'>
             <Form.Label>Email address</Form.Label>

@@ -13,7 +13,7 @@ const Home = () => {
             src='./images/samuel1.jpg'
             alt='First slide'
           />
-          <Carousel.Caption>
+          <Carousel.Caption className='caption'>
             <h5>Black Vinyl Jacket</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
@@ -24,7 +24,7 @@ const Home = () => {
             src='./images/beata1.jpg'
             alt='Third slide'
           />
-          <Carousel.Caption>
+          <Carousel.Caption className='caption'>
             <h5>Purple Vinyl Jacket</h5>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.

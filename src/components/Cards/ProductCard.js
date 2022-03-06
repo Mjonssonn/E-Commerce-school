@@ -1,11 +1,11 @@
 import React from 'react';
-import Products from './Products';
+import { Card, Button } from 'react-bootstrap';
 
 const ProductCard = () => {
   return (
     <div>
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant='top' src={Products[0]} />
+        <Card.Img variant='top' src={'./images/samuel1.jpg'} />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>

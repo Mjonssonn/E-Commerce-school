@@ -9,5 +9,11 @@
   top: 0;
   left: 0;
   min-height: 500px;
-  height: 5vw;
+  max-width: 100%;
+}
+
+.caption {
+  color: rgb(255, 255, 255) !important;
+  filter: drop-shadow(16px 0px 10px black);
+  font-size: 15px;
 }

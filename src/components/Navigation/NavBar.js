@@ -2,10 +2,10 @@ import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './NavBar.css';
-import Home from '../Pages/Home';
-import About from '../Pages/About';
-import Contact from '../Pages/Contact';
-import Products from '../Pages/Products';
+import Home from '../Pages/Home/Home';
+import About from '../Pages/About/About';
+import Contact from '../Pages/Contact/Contact';
+import Products from '../Pages/Products/Products';
 
 const NavBar = () => {
   return (
