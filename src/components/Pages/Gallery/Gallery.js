@@ -7,13 +7,7 @@ const Gallery = () => {
     <div>
       <Container>
         <h1>Gallery</h1>
-      </Container>
-      <Container>
-        <Row>
-          <Col>
-            <ProductCard />
-          </Col>
-        </Row>
+        <ProductCard />
       </Container>
     </div>
   );

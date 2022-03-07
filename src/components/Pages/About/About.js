@@ -9,8 +9,6 @@ export default class About extends Component {
         <Container>
           <h1>About</h1>
           <img src='./images/beata2.jpg' class='img-fluid' alt='About image' />
-        </Container>
-        <Container>
           <Row>
             <Col>
               <LoremIpsum p={1} />
