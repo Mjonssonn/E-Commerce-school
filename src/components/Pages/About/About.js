@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import LoremIpsum from 'react-lorem-ipsum';
-import { Container } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default class About extends Component {
   render() {
@@ -8,7 +8,17 @@ export default class About extends Component {
       <div>
         <Container>
           <h1>About</h1>
-          <LoremIpsum p={4} />
+          <img src='./images/beata2.jpg' class='img-fluid' alt='About image' />
+        </Container>
+        <Container>
+          <Row>
+            <Col>
+              <LoremIpsum p={1} />
+            </Col>
+            <Col>
+              <LoremIpsum p={1} />
+            </Col>
+          </Row>
         </Container>
       </div>
     );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Container } from 'react-bootstrap';
+import { Carousel, Container, Col, Row } from 'react-bootstrap';
 import LoremIpsum from 'react-lorem-ipsum';
 import './Home.css';
 
@@ -32,8 +32,16 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <br />
       <Container>
-        <LoremIpsum p={1} />
+        <Row>
+          <Col>
+            <LoremIpsum p={1} />
+          </Col>
+          <Col>
+            <LoremIpsum p={1} />
+          </Col>
+        </Row>
       </Container>
     </div>
   );

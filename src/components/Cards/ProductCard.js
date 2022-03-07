@@ -1,20 +1,15 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
-const ProductCard = () => {
+const ProductCard = (props) => {
   return (
     <div>
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '100%' }}>
         <Card.Img variant='top' src={'./images/samuel1.jpg'} />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant='primary'>Go somewhere</Button>
-        </Card.Body>
+        <Card.Img variant='top' src={'./images/beata1.jpg'} />
+        <Card.Img variant='top' src={'./images/grungephoto.jpg'} />
       </Card>
+      <br />
     </div>
   );
 };

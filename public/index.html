@@ -43,6 +43,14 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+
+    <style>
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
 
   <body>
@@ -59,14 +67,17 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-
-    <button
-      type="button"
-      class="btn btn-secondary btn-sm"
-      onclick="myFunction()"
-    >
-      Invert Background Colors
-    </button>
+    <div class="center">
+      <button
+        class="center"
+        type="button"
+        class="btn btn-secondary btn-sm"
+        onclick="myFunction()"
+      >
+        Invert Background Colors
+      </button>
+    </div>
+    <br />
 
     <script>
       function myFunction() {

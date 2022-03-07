@@ -5,7 +5,7 @@ import './NavBar.css';
 import Home from '../Pages/Home/Home';
 import About from '../Pages/About/About';
 import Contact from '../Pages/Contact/Contact';
-import Products from '../Pages/Products/Products';
+import Gallery from '../Pages/Gallery/Gallery';
 
 const NavBar = () => {
   return (
@@ -19,8 +19,8 @@ const NavBar = () => {
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse id='basic-navbar-nav'>
               <Nav className='justify-content-end' style={{ width: '100%' }}>
-                <Nav.Link as={Link} to={'/products'}>
-                  Products
+                <Nav.Link as={Link} to={'/gallery'}>
+                  Gallery
                 </Nav.Link>
                 <Nav.Link as={Link} to={'/about'}>
                   About
@@ -35,17 +35,17 @@ const NavBar = () => {
       </div>
       <div>
         <Switch>
-          <Route path='/home'>
-            <Home />
-          </Route>
-          <Route path='/products'>
-            <Products />
+          <Route path='/gallery'>
+            <Gallery />
           </Route>
           <Route path='/about'>
             <About />
           </Route>
           <Route path='/contact'>
             <Contact />
+          </Route>
+          <Route path='/'>
+            <Home />
           </Route>
         </Switch>
       </div>
