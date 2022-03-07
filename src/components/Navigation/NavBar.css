@@ -16,22 +16,7 @@
   margin: 0px;
 }
 
-.nav.active {
-  color: rgb(224, 31, 31) !important;
-  font-size: 25px;
-  margin: 0px;
-}
-
-.navbar {
-  background-color: rgba(0, 0, 0, 0);
-}
-
 .navbar.toggle,
 .navbar.collapse {
   color: red !important;
-}
-
-.dark-mode {
-  background-color: black;
-  color: white;
 }
