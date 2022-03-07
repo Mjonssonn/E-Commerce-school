@@ -1,4 +1,4 @@
-A responsive website made for a school project
+# A responsive website made for a school project
 
 # Getting Started with Create React App
 
