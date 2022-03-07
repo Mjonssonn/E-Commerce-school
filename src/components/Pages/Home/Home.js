@@ -32,7 +32,6 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <br />
       <Container>
         <Row>
           <Col>

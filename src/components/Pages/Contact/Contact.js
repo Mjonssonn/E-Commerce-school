@@ -24,9 +24,15 @@ const Contact = () => {
             <Form.Label>Password</Form.Label>
             <Form.Control type='password' placeholder='Password' />
           </Form.Group>
-          <Form.Group className='mb-3' controlId='formBasicCheckbox'>
-            <Form.Check type='checkbox' label='Check me out' />
-          </Form.Group>
+          <Container className='check-me-out'>
+            <Form.Group className='mb-3' controlId='formBasicCheckbox'>
+              <Form.Check
+                className='col-xs'
+                type='checkbox'
+                label='Check me out'
+              />
+            </Form.Group>
+          </Container>
           <Button variant='primary' type='submit'>
             Submit
           </Button>
